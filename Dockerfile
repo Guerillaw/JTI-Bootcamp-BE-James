@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 #Expose server at port ( accessible outside of container)
-EXPOSE 8080
+EXPOSE 3000
 
 #Start app 
 CMD ["node", "index.js"]
